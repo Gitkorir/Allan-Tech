@@ -1,0 +1,41 @@
+/* General */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+/* Hero Section */
+.hero {
+    background: url('images/hero.jpg') no-repeat center/cover; /* Add a real image here */
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #007bff; /* Blue */
+    border: none;
+}
+
+/* Services Grid */
+.services-grid .card {
+    text-align: center;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Floating CTA for mobile */
+@media (max-width: 768px) {
+    .floating-cta {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 1000;
+    }
+}
+
+/* Add high contrast for mobile */
+a, button {
+    color: inherit; /* Inherit for better readability */
+}
